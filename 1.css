@@ -1,0 +1,81 @@
+*{margin: 0;padding: 0;list-style: none;}
+body{font-family: "微软雅黑";background: #fdfdfd;}
+#header{
+	width: 100%;
+	height:119px;
+	background: url(images/head_bg.jpg) repeat-x;
+	border-bottom:3px solid #d5d5d5;
+}
+.nav{
+	width: 1000px;
+	margin: 0 auto;
+	font-size:22px;
+}
+li{float: left;}
+li a{ 
+	display: inline-block;
+	height: 91px;
+	width: 109px;
+	text-align: center;
+	line-height: 70px;
+}
+li a:hover{background: url(images/xuanfu.png) center center;}
+.i{
+	width: 100%;
+	height:100%;
+}
+.content{
+	width: 980px;
+	color: green;
+	font-size: 30px;
+	text-align: center;
+	margin:0 auto;
+}
+.content h2{
+	line-height: 60px;
+}
+.content h3{
+	line-height: 30px;
+	font-size: 20px;
+}
+.content p{
+	font-size: 20px;
+	text-align: left;
+	text-indent: 2em;
+	color: #303131;
+}
+.content p i{
+	font-size: 30px;
+	color: green;
+}
+.content p strong,.content p u{
+	color: #7C252C;
+}
+.content p u{font-size: 24px;}
+.content p b{background-color: #f5ee30;}
+.i1{
+	margin-left:-110px;
+	width: 1200px;
+	height:100%;
+}
+end{
+	width: 800px;
+	background-color: #008000;
+}
+
+.end img{
+	width:1000px;
+	margin-left: 250px;
+}
+.style a:hover{background: palegreen;}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	color: black;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+	background-color: lightgoldenrodyellow;
+}
